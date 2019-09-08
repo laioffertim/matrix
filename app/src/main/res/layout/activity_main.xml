@@ -11,4 +11,19 @@
         <!--android:layout_height="match_parent"-->
         <!--android:layout_width="match_parent">-->
     <!--</ListView>-->
+
+    <RelativeLayout
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:id="@+id/event_container">
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@id/event_container"
+        android:id="@+id/comment_container">
+    </RelativeLayout>
+
+
 </RelativeLayout>
